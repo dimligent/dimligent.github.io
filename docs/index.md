@@ -22,3 +22,4 @@ features:
   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 ---
+ECHO 处于打开状态。
