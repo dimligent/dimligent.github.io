@@ -1,10 +1,23 @@
 {
-  "devDependencies": {
-    "vitepress": "^1.6.4"
-  },
-  "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
-  }
+	"name": "vitepress-blog",
+	"version": "1.0.0",
+	"private": true,
+	"author": "白云苍狗",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"dev": "vitepress dev ./",
+		"build": "vitepress build ./",
+		"preview": "vitepress preview ./"
+	},
+	"dependencies": {
+		"vitepress-theme-async": "latest"
+	},
+	"directories": {
+		"doc": "docs"
+	},
+	"devDependencies": {
+		"typescript": "^5.1.6",
+		"vitepress": "^1.1.0"
+	}
 }
